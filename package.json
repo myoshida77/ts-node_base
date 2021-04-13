@@ -1,16 +1,16 @@
 {
-  "name": "ts-node-base",
+  "name": "ts-node_base",
   "version": "0.1.0",
   "private": true,
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./dist/main.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/myoshidq/ts-node-base"
+    "url": "git+ssh://github.com/myoshidq/ts-node_base"
   },
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "dev:watch": "ts-node-dev --respawn src/index.ts"
+    "dev": "ts-node src/main.ts",
+    "dev:watch": "ts-node-dev --respawn src/main.ts"
   },
   "keywords": [],
   "author": "Masaki Yoshdia <yoshida.masaki.67w@gmail.com>(https://github.com/myoshidq)",
